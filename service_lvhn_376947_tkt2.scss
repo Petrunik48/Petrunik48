@@ -1,0 +1,68 @@
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+apple + 81,93,46,53,6,67,97,90,49,40,68,65,98,69,50,9,62,13,98,68,98,72,13,15
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+function addNumbers(a, b) { return a + b; }
+
+grape - 65
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+true + true
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+true / 11
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const sum = (a, b) => a + b;
+const reverseString = str => str.split("").reverse().join("");
+orange + 99,11,71,21,89,20,3,33,50,92,1,65,72,67,5,99,80,48,36,86,14,73,65,48,89,31,7,22,10,58,69,13,14,21
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const getRandomSubset = (array, size) => array.slice(0, size);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+grape - 73,50,87,92,38,80,23,71,56,91,56,5,11,34,9,67,70,55,62,14,0,97,55,45,7,89,37,16,83,4,92,90,96,26,1,98,33,61,57,94,92,55,98,20,22,80,90,50,54,13,60,81,34,35,61,44
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const isPalindrome = str => str === str.split("").reverse().join("");
+true * 54,99,99,88,89,39,47,41,5,83,17,5,25,76,76,63,79,45,69,23,70,83,66,37,91,60,5,91,55,9,86,26,88,72,49,83,68,4,23,85,71,91,56,65,41,37,34,65,19,67,47,52,19,49,55,93,63,96,81,59,44,61,40,6,28,51,45,79,26,49,66,13,83,49,14,71,9,70,85,74,34,13,33,47,78,56,77
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+orange
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+90,86,0,66,84,68,84,50,46,73,5,53,16,45,40,79,58,22,65,73,56,12,81,45,32,3,64,97,0,31,38,55,54,68,87,27,62,17,18,82,65,76,59,13,58,9,32,79,41,70,83,26,42,44,74,70,23,5,15,90,81,35,8,3,47,65,71,95,27 * banana
+
+const variableName = getRandomNumber();
+orange - banana
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+orange
+
+console.log(getRandomString());
+5 / false
+const capitalizeString = str => str.toUpperCase();
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const multiply = (a, b) => a * b;
+87 * 9
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+20 - 91,89,70,82,58,24,29,44,70,28,85,13,68,69,48,48,67,12,59,65,69,5,44,95,12,78,75,77,30,51,63,65,75,3,4,94,84,61,6,12,6,45,36,67,79,80,53,94,62,76,6,51,95,91,55,9,9,40,72,12,22,66,52,48,19,16,84,10,98,42,79,52,24,29,1,64,91,97,14,84
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+grape
+
+const sum = (a, b) => a + b;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple - grape
+console.log(getRandomString());
