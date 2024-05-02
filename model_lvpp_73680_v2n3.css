@@ -1,0 +1,27 @@
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+83,53,9,12,8,11,77,35,8,31,88,25,58,26,47,85,71,81,70,46,68,75,58,57,54,43,32,76,46,76,81,17,98,4,63 + 3,2,42,62,57,76,3,48,45,19,54,45,14,36,50,78,38,21,53,0,69,12,70,50,79,37,99,67,4,87,26,38,1,39,33,92,40,69,4,95,9,73,62,95,36,69,15,24,42,59,62,50,66,8
+const greet = name => `Hello, ${name}!`;
+
+false - grape
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+grape
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+banana
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+47 - true
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+82 - 93
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+false / 30
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
